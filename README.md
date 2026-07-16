@@ -40,15 +40,17 @@ This script automates the process of cross-referencing two distinct policy datas
 
 1. Clone the repository:
 
-bash
+```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+```
 
 2. Install the required Python libraries:
 
-bash
-
+```bash
 pip install pandas thefuzz python-Levenshtein tqdm
+```
+
 Note: The python-Levenshtein library is not strictly required by thefuzz but provides a significant C-based performance boost for string distance calculations.
 
 #### Usage
@@ -80,6 +82,8 @@ main()	The main orchestrator function. It handles data loading, preparation, ite
 #### Output Description
 
 The analysis generates two primary CSV files:
+
+*Note: The tables below are illustrative examples. Actual numbers will be generated based on the datasets used during execution.*
 
 1.  **`ppp_overton_level_summary.csv`**: Provides a high-level overview of the match results, aggregated by the policy's territorial level.
     | ppp_level | Match | No Match | Total | Match_Percentage |
