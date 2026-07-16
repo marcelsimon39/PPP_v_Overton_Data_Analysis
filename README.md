@@ -64,9 +64,9 @@ FINAL_OUTPUT_PATH_DETAILS = '/path/to/your/output/ppp_overton_level_details.csv'
 
 2. Execute the Script: Run the script from your terminal.
 
-bash
-
+```bash
 python your_script_name.py
+```
 The script will display a progress bar and print the final summary tables to the console upon completion.
 
 #### Code Structure
