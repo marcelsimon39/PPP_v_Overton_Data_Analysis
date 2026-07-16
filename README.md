@@ -83,7 +83,7 @@ main()	The main orchestrator function. It handles data loading, preparation, ite
 
 The analysis generates two primary CSV files:
 
-*Note: The tables below are illustrative examples. Actual numbers will be generated based on the datasets used during execution.*
+*Note: The tables below are snippets to illustrate the output format. The full results will be generated in the CSV files upon execution.*
 
 1.  **`ppp_overton_level_summary.csv`**: Provides a high-level overview of the match results, aggregated by the policy's territorial level.
     | ppp_level | Match | No Match | Total | Match_Percentage |
