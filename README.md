@@ -55,12 +55,12 @@ Note: The python-Levenshtein library is not strictly required by thefuzz but pro
 
 1. Configure Paths: Open the script and update the file path constants at the top to point to your local datasets.
 
-python
-
-```python``` ODOO_NEW_PATH = '/path/to/your/Odoo data NEW.csv'
-```python``` OVERTON_NEW_PATH = '/path/to/your/Overton data NEW.csv'
-```python``` FINAL_OUTPUT_PATH_SUMMARY = '/path/to/your/output/ppp_overton_level_summary.csv'
-```python``` FINAL_OUTPUT_PATH_DETAILS = '/path/to/your/output/ppp_overton_level_details.csv'
+```python
+ODOO_NEW_PATH = '/path/to/your/Odoo data NEW.csv'
+OVERTON_NEW_PATH = '/path/to/your/Overton data NEW.csv'
+FINAL_OUTPUT_PATH_SUMMARY = '/path/to/your/output/ppp_overton_level_summary.csv'
+FINAL_OUTPUT_PATH_DETAILS = '/path/to/your/output/ppp_overton_level_details.csv'
+```
 
 2. Execute the Script: Run the script from your terminal.
 
